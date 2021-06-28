@@ -1,0 +1,60 @@
+1. 공격 (attack)
+
+1) SYN Flooding 
+dos-synflooding-1-pkts.pcap: 외부에서 IoT 기기(192.168.0.13)로의 Syn Flooding 공격
+dos-synflooding-2-pkts.pcap: 외부에서 IoT 기기(192.168.0.13)로의 Syn Flooding 공격
+dos-synflooding-3-pkts.pcap: 외부에서 IoT 기기(192.168.0.13)로의 Syn Flooding 공격
+dos-synflooding-4-pkts.pcap: 외부에서 IoT 기기(192.168.0.24)로의 Syn Flooding 공격
+dos-synflooding-5-pkts.pcap: 외부에서 IoT 기기(192.168.0.24)로의 Syn Flooding 공격
+dos-synflooding-6-pkts.pcap: 외부에서 IoT 기기(192.168.0.24)로의 Syn Flooding 공격
+
+2) ACK Flooding
+mirai-ackflooding-1-pkts.pcap: IoT 기기(192.168.0.13)로부터 외부 서버(210.89.164.90)으로의 ACK Flooding 공격
+mirai-ackflooding-2-pkts.pcap: IoT 기기(192.168.0.13)로부터 외부 서버(210.89.164.90)으로의 ACK Flooding 공격
+mirai-ackflooding-3-pkts.pcap: IoT 기기(192.168.0.24)로부터 외부 서버(210.89.164.90)으로의 ACK Flooding 공격
+mirai-ackflooding-4-pkts.pcap: IoT 기기(192.168.0.24)로부터 외부 서버(210.89.164.90)으로의 ACK Flooding 공격
+
+3) HTTP Flooding
+mirai-httpflooding-1-pkts.pcap: IoT 기기(192.168.0.13)로부터 외부 서버(210.89.164.90)로의 HTTP Flooding 공격
+mirai-httpflooding-2-pkts.pcap: IoT 기기(192.168.0.13)로부터 외부 서버(210.89.164.90)로의 HTTP Flooding 공격
+mirai-httpflooding-3-pkts.pcap: IoT 기기(192.168.0.24)로부터 외부 서버(210.89.164.90)로의 HTTP Flooding 공격
+mirai-httpflooding-4-pkts.pcap: IoT 기기(192.168.0.24)로부터 외부 서버(210.89.164.90)로의 HTTP Flooding 공격
+
+4) UDP Flooding
+mirai-udpflooding-1-pkts.pcap: IoT 기기(192.168.0.13)로부터 외부 서버(210.89.164.90)로의 UDP Flooding 공격
+mirai-udpflooding-2-pkts.pcap: IoT 기기(192.168.0.13)로부터 외부 서버(210.89.164.90)로의 UDP Flooding 공격
+mirai-udpflooding-3-pkts.pcap: IoT 기기(192.168.0.24)로부터 외부 서버(210.89.164.90)로의 UDP Flooding 공격
+mirai-udpflooding-4-pkts.pcap: IoT 기기(192.168.0.24)로부터 외부 서버(210.89.164.90)로의 UDP Flooding 공격
+
+2. 감염 (infection)
+
+1) Bruteforce
+bruteforce-1-pkts.pcap: IoT 기기(192.168.0.13)가 네트워크 내의 다른 호스트(192.168.0.24)에 사전 공격을 하는 행위
+bruteforce-2-pkts.pcap: IoT 기기(192.168.0.24)가 네트워크 내의 다른 호스트(192.168.0.13)에 사전 공격을 하는 행위
+bruteforce-3-pkts.pcap: IoT 기기(192.168.0.13)가 네트워크 내의 다른 호스트(192.168.0.24)에 사전 공격을 하는 행위
+bruteforce-4-pkts.pcap: IoT 기기(192.168.0.24)가 네트워크 내의 다른 호스트(192.168.0.13)에 사전 공격을 하는 행위
+bruteforce-5-pkts.pcap: IoT 기기(192.168.0.13)가 네트워크 내의 다른 호스트(192.168.0.24)에 사전 공격을 하는 행위
+
+3. 정찰 (reconnaissance)
+
+1) Host Discovery (ARP)
+host-discovery-1-pkts.pcap: IoT 기기(192.168.0.13)가 네트워크 내의 다른 호스트들을 찾는 행위
+host-discovery-2-pkts.pcap: IoT 기기(192.168.0.24)가 네트워크 내의 다른 호스트들을 찾는 행위
+host-discovery-3-pkts.pcap: IoT 기기(192.168.0.13)가 네트워크 내의 다른 호스트들을 찾는 행위
+host-discovery-4-pkts.pcap: IoT 기기(192.168.0.24)가 네트워크 내의 다른 호스트들을 찾는 행위
+host-discovery-5-pkts.pcap: IoT 기기(192.168.0.13)가 네트워크 내의 다른 호스트들을 찾는 행위
+
+2) Host Discovery (ARP)
+hostport-1-pkts.pcap: IoT 기기(192.168.0.15)가 네트워크 내의 다른 호스트들을 찾는 행위
+hostport-2-pkts.pcap: IoT 기기(192.168.0.15)가 네트워크 내의 다른 호스트들을 찾는 행위
+hostport-3-pkts.pcap: IoT 기기(192.168.0.15)가 네트워크 내의 다른 호스트들을 찾는 행위
+hostport-4-pkts.pcap: IoT 기기(192.168.0.15)가 네트워크 내의 다른 호스트들을 찾는 행위
+hostport-5-pkts.pcap: IoT 기기(192.168.0.15)가 네트워크 내의 다른 호스트들을 찾는 행위
+
+3) Port Scanning
+portscanning-1-pkts.pcap: IoT 기기(192.168.0.15)가 다른 IoT 기기(192.168.0.13)의 포트를 스캐닝하는 행위
+portscanning-2-pkts.pcap: IoT 기기(192.168.0.15)가 다른 IoT 기기(192.168.0.13)의 포트를 스캐닝하는 행위
+portscanning-3-pkts.pcap: IoT 기기(192.168.0.15)가 다른 IoT 기기(192.168.0.13)의 포트를 스캐닝하는 행위
+portscanning-4-pkts.pcap: IoT 기기(192.168.0.15)가 다른 IoT 기기(192.168.0.24)의 포트를 스캐닝하는 행위
+portscanning-5-pkts.pcap: IoT 기기(192.168.0.15)가 다른 IoT 기기(192.168.0.24)의 포트를 스캐닝하는 행위
+
